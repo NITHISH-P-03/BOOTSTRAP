@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- here grid layout in bootstraphave 12 columns so if we create a div it comes under 12 columns -->
+    <div class="contanier">
+        <h2>Grid system</h2>
+        <div class="row">
+            <div class="col bg-success">One</div>
+            <div class="col bg-primary">Two</div>
+
+            <!-- here we have given class as col when ever we give col it divides the div equally -->
+        </div> <br>
+        <div class="row">
+            <div class="col bg-success">One</div>
+            <div class="col bg-primary">Two</div>
+            <div class="col bg-danger">Three</div>
+
+            <!-- here we have given class as col when ever we give col it divides the div equally -->
+        </div><br> 
+
+        <div class="row">
+            <div class="col-8 bg-success">Eight units</div>
+            <div class="col-2 bg-primary">Two Units</div>
+
+            <!-- here col is given number -->
+        </div><br>
+
+        <div class="row">
+            <div class="col-md bg-success">One</div>
+            <div class="col-md bg-primary">Two</div>
+            <div class="col-md bg-danger">Three</div>
+
+            <!--here the md refers to medium screen in responsive md-768px when screen is more than 768px it shows the thing
+            in a vertical line if it less than 768px the column will jumps to next link check by insprecting--></here>
+            <!-- here we have given class as col when ever we give col it divides the div equally -->
+        </div><br>
+
+        <div class="row">
+            <div class="col-md-6 col-xl-4 bg-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde id itaque rem delectus labore eaque adipisci ab modi officiis sapiente laudantium corporis quisquam, debitis odit minus voluptatem cupiditate explicabo alias soluta expedita cumque! Facere necessitatibus officia mollitia? Voluptatum temporibus, placeat aliquid nobis facere dolorum natus amet minima. Quisquam libero, minima nisi beatae est tempora perspiciatis quod assumenda qui ab nam nostrum, ipsa, sapiente veniam quos dolores. Quibusdam, hic, sint molestias cupiditate sed saepe necessitatibus vel repellendus recusandae repellat ex similique?</div>
+            <div class="col-md-6 col-xl-4 bg-primary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ducimus. Aut ex aperiam magnam dicta totam deleniti provident facilis recusandae saepe. Quae alias aliquid pariatur veniam labore ab, inventore atque. Laboriosam officia dolores alias pariatur voluptas magnam, nam ipsa dolore, harum fugiat illo aperiam illum sapiente sit similique eveniet possimus provident quaerat dolorem ratione voluptatibus aliquam! Labore laudantium nulla placeat voluptatem culpa. Voluptas perferendis nulla pariatur facilis, repudiandae eligendi aliquid distinctio eum, sed non laudantium reprehenderit ex inventore tenetur error?</div>
+            <div class="col-md-6 col-xl-4 bg-warning">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia animi vero laborum, quibusdam fugiat dolorem atque qui dignissimos, molestias vel in eaque consequatur sequi numquam iste rem. Laudantium nemo mollitia fugit. Ratione numquam consequatur voluptatibus iusto id ullam! Eos magni nulla veritatis officiis modi rerum blanditiis, harum laboriosam, corrupti ad perferendis ipsum dolore labore voluptatibus voluptatem odio facilis tempora nemo itaque cupiditate? Dolor tempora eius culpa expedita itaque exercitationem veniam ipsum qui, deleniti maiores et, perferendis iure, necessitatibus asperiores veritatis?</div>
+             
+            <!--here what col-md-6 indicates when ever screen size is less than md then content should take 100% of the width each example
+            2 divs each div take 12 units it shifts to next(horizontally) similarly when the screen size is between md -xl 
+            then the content should take 50% of the width example 2 dvs each div take 6 units and then if the screen size is 
+             more than xl then content should take 4 units  -->
+            <!-- here we have given class as col when ever we give col it divides the div equally -->
+        </div><br><hr>
+
+
+        <h1>Grid Vertical</h1>
+        <div class="row align-items-start "> <!--semilarly for center end-->
+            <div class="col bg-success align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde id itaque rem delectus labore eaque adipisci ab modi officiis sapiente laudantium corporis quisquam, debitis odit minus voluptatem cupiditate explicabo alias soluta expedita cumque! Facere necessitatibus officia mollitia? Voluptatum temporibus, placeat aliquid nobis facere dolorum natus amet minima. Quisquam libero, minima nisi beatae est tempora perspiciatis quod assumenda qui ab nam nostrum, ipsa, sapiente veniam quos dolores. Quibusdam, hic, sint molestias cupiditate sed saepe necessitatibus vel repellendus recusandae repellat ex similique?</div>
+            <div class="col bg-primary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ducimus. Aut ex aperiam magnam dicta totam deleniti provident facilis recusandae saepe. Quae alias aliquid pariatur veniam labore ab, inventore atque. Laboriosam officia dolores alias pariatur voluptas magnam, nam ipsa dolore, harum fugiat illo aperiam illum sapiente sit similique eveniet possimus provident quaerat dolorem ratione voluptatibus aliquam! Labore laudantium nulla placeat voluptatem culpa. Voluptas perferendis nulla pariatur facilis, repudiandae eligendi aliquid distinctio eum, sed non laudantium reprehenderit ex inventore tenetur error? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta repudiandae maiores maxime exercitationem laudantium sapiente aliquid sed quasi facilis officia.</div>
+            <div class="col bg-warning">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia animi vero laborum, quibusdam fugiat dolorem atque qui dignissimos, molestias vel in eaque consequatur sequi numquam iste rem. Laudantium nemo mollitia fugit. Ratione numquam consequatur voluptatibus iusto id ullam! Eos magni nulla veritatis officiis modi rerum blanditiis, harum laboriosam, corrupti ad perferendis ipsum dolore labore voluptatibus voluptatem odio facilis tempora nemo itaque cupiditate? Dolor tempora eius culpa expedita itaque exercitationem veniam ipsum qui, deleniti maiores et, perferendis iure, necessitatibus asperiores veritatis?</div>
+            <div class="col bg-danger ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ducimus. Aut ex aperiam magnam dicta totam deleniti provident facilis recusandae saepe. Quae alias aliquid pariatur veniam labore ab, inventore atque. Laboriosam officia dolores alias pariatur voluptas magnam, nam ipsa dolore, harum fugiat illo aperiam illum sapiente sit similique eveniet possimus provident quaerat dolorem ratione voluptatibus aliquam! Labore laudantium nulla placeat voluptatem culpa. Voluptas perferendis nulla pariatur facilis, repudiandae eligendi aliquid distinctio eum, sed non laudantium reprehenderit ex inventore tenetur error? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta repudiandae maiores maxime exercitationem laudantium sapiente aliquid sed quasi facilis officia.</div>
+        </div>
+    </div>
+    
+</body>
+</html>
